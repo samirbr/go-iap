@@ -118,9 +118,9 @@ type (
 		ExpiresDate
 
 		PurchaseDate
-		OriginalPurchaseDate
+		OriginalPurchaseDate `json:"original_purchase_date,omitempty"`
 
-		CancellationDate
+		CancellationDate `json:"cancellation_date,omitempty"`
 		CancellationReason string `json:"cancellation_reason,omitempty"`
 
 		InAppOwnershipType string `json:"in_app_ownership_type,omitempty"`
