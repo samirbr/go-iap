@@ -1,4 +1,4 @@
-module github.com/samir/go-iap
+module github.com/samirbr/go-iap
 
 go 1.15
 
